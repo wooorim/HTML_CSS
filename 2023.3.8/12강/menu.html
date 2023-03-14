@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        #nav {
+            width: 800px;
+            margin: 0 auto;
+            border: 5px solid red;
+            
+        }
+
+        #nav div {
+            width: 150px;
+            float: left; 
+            /* menu1부터 뛰우고 왼쪽부터 순차적으로 정령(nav의 border는 div요소가 뛰어졌기 때문에 위에 합쳐짐.) */
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 1.5em;
+            border-top: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div>menu1</div>
+        <div>menu2</div>
+        <div>menu3</div>
+        <div>menu4</div>
+        <div>menu5</div>
+    </div>
+</body>
+</html>
